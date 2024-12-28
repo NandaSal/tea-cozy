@@ -1,0 +1,142 @@
+/* global settings */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  background-color: black;
+  color: seashell;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  padding: 10px;
+  border-bottom: 1px solid seashell;
+}
+
+.header--logo {
+  height: 50px;
+}
+
+/* nav */
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.nav__list__item {
+  list-style-type: none;
+  text-decoration: underline;
+}
+
+.nav__list--link {
+  color: seashell;
+}
+
+/* main */
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*17upze*_gcl_au*ODA1OTU2NTQ1LjE3MzI4MTU1Njg.*_ga*Njg5ODMyMzYxMC4xNzMyODE1NTU4*_ga_3LRZM6TM9L*MTczNTMzNTI4My41My4xLjE3MzUzMzU3NTcuMjAuMC4w');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+.main__title, .main__text {
+  background-color: black;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* featured teas */
+.container {
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.featured {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.featured-tea--name {
+  padding-bottom: 10px;
+}
+
+.featured-tea--img {
+  width: 300px;
+  height: 200px;
+  padding: 20px 20px 10px 20px;
+}
+
+/* Locations */
+.locations {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1ppzyod*_gcl_au*ODA1OTU2NTQ1LjE3MzI4MTU1Njg.*_ga*Njg5ODMyMzYxMC4xNzMyODE1NTU4*_ga_3LRZM6TM9L*MTczMzQxNTYxMS4xMC4xLjE3MzM0MjYwNzMuMTMuMC4w");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+.location--title {
+  padding-bottom: 15px;
+  padding-top: 80px;
+}
+
+.location__div {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  opacity: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  align-items: center;
+  justify-content: center;
+}
+
+.location__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.contact {
+ height: 200px;
+ padding: 10px;
+}
+
+.contact--info {
+  padding-top: 30px;
+}
+
+/* footer */
+.footer--text {
+  text-align: left;
+  padding: 20px;
+}
